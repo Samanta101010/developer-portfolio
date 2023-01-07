@@ -160,3 +160,53 @@ linear-gradient(0deg, #757575, #757575);
     font-weight: 300;
 
 }
+/* resume styles */
+.resume{
+      margin-top: 50px;
+      margin-bottom: 30px;
+      text-align: center;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.achievement{
+    margin-top: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding:130px 200px ;
+
+}
+.contact input[type="text"],input=[type="email"],textarea{
+    height: 64px;
+    width: 461px;
+    left: 909px;
+    top: 3682px;
+    border-radius: 5px;
+    margin-bottom:20px;
+
+}
+input{
+    height:64px;
+}
+    
+}
+.email{
+    height: 64px;
+width: 461px;
+left: 909px;
+top: 3682px;
+border-radius: 5px;
+
+
+}
+.message{
+
+}
