@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-primary{
+    color: orangered;
+}
+.btn-primary{
+    height: 50px;
+    color:#FFF8F3;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/* header and navigation styles */
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-weight: 500;
+    font-size: 30px;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin: 50px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-title{
+    font-family: Open Sans;
+    font-size: 60px;
+    font-weight: 1000;
+    color: #181818;
+    line-height: 116px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.banner-sub-title{
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.banner-description{
+    font-family: Open Sans;
+    color:#757575;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+main{
+    max-width: 1140px;
+    margin:0 auto;
+
+}
+/* about section style */
+.about{
+    margin-top: 130px;
+    background-color:#FFF8F3;
+    padding: 130px 150px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.section-title{
+    
+    color: #181818;
+    font-weight: 700;
+
+}
+.section-description{
+    margin-top: 30px;
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 30px;
+
+
+}
+/* about info style */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    
+   
+}
+.info-title{
+    color: linear-gradient(0deg, #474747, #474747),
+    linear-gradient(0deg, #757575, #757575);
+    font-size: 15px;
+    font-weight: 500;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: linear-gradient(0deg, #474747, #474747),
+linear-gradient(0deg, #757575, #757575);
+
+
+
+}
